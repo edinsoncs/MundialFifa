@@ -1,0 +1,279 @@
+/*Utilies*/
+
+.input-fifa-new {
+    border-radius: 0;
+}
+.input-fifa-new:focus {
+    box-shadow: none;
+}
+.none {
+    display: none;
+}
+.cursor {
+    cursor:pointer;
+}
+.input-fifa-height {
+    line-height: 0;
+    vertical-align: middle;
+    border-radius: 0;
+}
+.input-fifa-btn1 {
+    background: orange;
+    color: black;
+    padding: 1.2em 1.5em;
+}
+.font-football-primary {
+    font-size: 18px;
+}
+
+
+.input-fifa-btn1:focus {
+    box-shadow: none;
+}
+
+.bg__Home {
+    background: #173a72;
+}
+.bg__Panel {
+    background: #dedede;
+    background-size: cover;
+}
+.main__Home .main__Home--Section .form{
+    margin: 0 auto;
+}
+
+.header__Fifa {
+    background:#fff;
+}
+
+.header__Fifa .fifa__Name {
+    font-size: 25px;
+    color: #173a72;
+}
+
+.football__Primary  {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.article__Random:nth-child(even) {
+    transform: rotate(3deg);
+}
+
+.article__Random:nth-child(odd) {
+    transform: rotate(-3deg);
+}
+
+.article__Random:hover {
+    cursor: pointer;
+}
+
+.article__Random:hover .card {
+    box-shadow: inset 0 0 10px #dadada;
+}
+
+.article__Random .figure {
+    position:relative;
+}
+
+.article__Random .figure .figurita__form label {
+    position: absolute;
+    font-size: 14px;
+    background: #e1b12c;
+    padding: 10px;
+    top: 100%;
+    width: 100%;
+    transform: rotate(4deg);
+    display: none;
+    box-shadow: 10px 10px 10px #b2b2b2;
+    cursor: pointer;
+    color: white;
+}
+.article__Random:hover .figurita__form label {
+    display: block;
+}
+
+.article__Random .card {
+    border-radius: 0;
+    box-shadow: 0 2px 4px #b9b9b938;
+}
+
+.article__Random h3 {
+    font-size: 15px;
+}
+.article__Random:active .card img {
+    filter: brightness(1.5);
+}
+
+
+.header__Sub  {
+    background: #173a72;
+    width: 25%;
+    margin: 1em 0 1em 0;
+}
+.header__Sub h2 {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main__Home--SubHeader h2 {
+    font-size: 20px;
+}
+
+.football__Secondary--List{
+    background: white;
+    height: 244px;
+    overflow-y: scroll;
+}
+
+.football__Secondary--List::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+.football__Secondary--List::-webkit-scrollbar-track {
+    background: #fff;
+}
+ 
+.football__Secondary--List::-webkit-scrollbar-thumb {
+  background: #173a72;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.football__Secondary .ul .list {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.btn-football-primary{
+  font-size: 24px;
+  background: #e1b12c;
+  border: none;
+  box-shadow: none;
+  box-shadow: 0 5px 0 #bb9428;
+}
+
+
+.btn-football-secondary{
+    font-size: 20px;
+    background: #EA2027;
+    border: none;
+    box-shadow: none;
+    box-shadow: 0 5px 0 rgb(212, 27, 37);
+  }
+
+  .btn-football-secondary:active, .btn-football-secondary:hover, .btn-football-secondary:focus {
+    background: #EA2027!important;
+    box-shadow: 0 5px 0 rgb(212, 27, 37)!important;
+}
+
+.btn-football-primary:active, .btn-football-primary:hover, .btn-football-primary:focus {
+    background: #c39a26!important;
+    box-shadow: 0 5px 2px #bb9428!important;
+}
+
+.modal__Container{
+    position: fixed;
+    width: 450px;
+    height: 250px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -10em;
+    margin-left: -14em;
+    border: 1px solid #eee;
+    z-index: 99;
+}
+
+.modal__Header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.modal__Header .modal__Header--Title{
+    font-weight: 400;
+    font-size: 18px;
+}
+.bg__Modal{
+    position:fixed;
+    background: rgba(0, 0, 0, 0.3);
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.content__Modal input{
+    border-radius: 0!important;
+}
+.content__Modal input:focus {
+    box-shadow: none!important;
+}
+
+.section__Pre {
+    margin:0 auto;
+}
+
+.container__Search {
+    background: #eee;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 129;
+}
+.figure__Sub  {
+    position: relative;
+}
+.figure__Sub:hover .form__change__image {
+    display:block;
+}
+.form__change__image {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.form__change__image  label{
+    z-index: 99;
+    color: #e1b12c;
+    text-align: center;
+    display: block;
+    margin: 6em auto;
+    background: transparent;
+    border: 2px solid #e1b12c;
+    border-radius: 4px;
+    padding: 0.8em;
+    width: 70%;
+    cursor: pointer;
+    text-shadow: 0 2px 4px black;
+}
+
+.form__change__image input[type='submit'] {
+    background: white;
+    padding: 0.8em 1em;
+    margin: 6em 0;
+    border: none;
+    cursor: pointer;
+}
+
+.detele-figurita{
+    position: absolute;
+    top: 0;
+    left:0;
+    margin: 1em;
+}
+.add__Figure {
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    margin: 1em;
+}
+
+/* Keyframes */
+@keyframes is_person {
+    100% {
+        
+    }
+}
